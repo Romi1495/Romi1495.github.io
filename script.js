@@ -22,13 +22,13 @@ $(document).ready(function() {
           <article class="hover tile is-child notification is-warning is-light box">
             <div class="content">
               <div class="columns is-vcentered">
-                <div class="column">
+                <div class="column is-vcentered">
                   <p class="title"> ${tile[0]} </p>
                 </div>
-                <div class="column is-half">
+                <div class="column is-half is-vcentered">
                   <p> ${tile[1]} </p>
                 </div>
-                <div class="column">
+                <div class="column is-vcentered">
                   <figure class="image is-128x128">
                     <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
                       </figure>
