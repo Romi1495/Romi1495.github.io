@@ -10,7 +10,7 @@ $(document).ready(function() {
     let con = false
     tiles.forEach(tile => {
       let target = con ? $("#left") : $("#right")
-      target.append(`
+      $("#left").append(`
           <article class="hover tile is-child notification is-warning is-light box">
             <div class="content">
               <div class="columns is-vcentered">
