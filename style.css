@@ -1,0 +1,12 @@
+.current {
+    font-weight: 600;
+    border-bottom: 3.5px solid black;
+}
+
+.hover {
+
+    transition: transform .2s;
+}
+.hover:hover {
+    transform: scale(1.04);
+}
